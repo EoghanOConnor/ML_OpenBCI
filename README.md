@@ -1,4 +1,5 @@
 Author: Eoghan O'Connor
+
 Project Title: Machine learning applied to EEG signals.
 
 
