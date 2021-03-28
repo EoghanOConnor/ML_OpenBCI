@@ -1,5 +1,4 @@
-Student: Eoghan O'Connor
-Student I.D: 16110625
+Author: Eoghan O'Connor
 Project Title: Machine learning applied to EEG signals.
 
 
