@@ -20,7 +20,6 @@ How it works:
 
 
 Equipment used:
-
   Mark IV OpenBCI headset and Bluetooth dongle
 
 
