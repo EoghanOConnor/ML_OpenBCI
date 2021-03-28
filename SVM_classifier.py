@@ -38,7 +38,7 @@ print("training...")
 
 #Function that sorts data into 1 array
 #The function also labels the different actions
-def sort_data(starting_dir="test_delete"):
+def sort_data(starting_dir="./data_files/EMG_SVM_Training_data_1_50Hz_3Channels"):
     
     #creating an array with 3 arrays
     training_data = {}
@@ -76,7 +76,7 @@ def sort_data(starting_dir="test_delete"):
 
 #Sorting and lablling the training dataset
 print("creating training data")
-traindata = sort_data(starting_dir="svm_data")
+traindata = sort_data(starting_dir="./data_files/EMG_SVM_Training_data_1_50Hz_3Channels")
 train_X = []
 train_y = []
 for X, y in traindata:
@@ -86,7 +86,7 @@ for X, y in traindata:
 
 #Sorting and lablling the validation dataset
 print("creating validation data")
-testdata = sort_data(starting_dir="svm_valid")
+testdata = sort_data(starting_dir="./data_files/EMG_SVM_Validation_data_1_50Hz_3Channels")
 test_X = []
 test_y = []
 for X, y in testdata:

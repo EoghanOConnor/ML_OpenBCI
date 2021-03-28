@@ -59,7 +59,7 @@ for i in range(800):
 print(f"the length of ch datas is : {len(channel_datas)}")
 					
 channel_datas=np.array(channel_datas)
-datadir = "./GUI_test/"
+datadir = "./data_files/EEG_test_sample_8Channels/"
 
 #creating folder for data
 if not os.path.exists(datadir):

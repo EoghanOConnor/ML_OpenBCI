@@ -78,7 +78,7 @@ for i in range(30):
 
 		channel_datas=np.array(channel_datas)
 		#creating folder for data
-		datadir = "./data"
+		datadir = "./data_files/EEG_Training_data_1_50Hz_8Channels"
 		if not os.path.exists(datadir):
 		    os.mkdir(datadir)
 

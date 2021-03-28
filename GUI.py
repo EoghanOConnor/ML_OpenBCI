@@ -33,11 +33,11 @@ import tensorflow as tf
 
 
 #Loading model from folder
-model = tf.keras.models.load_model("./eeg_model/")
+model = tf.keras.models.load_model("./Model_files/EEG_model_1_50Hz_8Channels/")
 
 
 # Uncomment to load sample dataset
-datadir = "./eeg_example/test.npy"
+datadir = "./data_files/EEG_test_sample_8Channels/test.npy"
 test= np.load(datadir)
 
 reshape = (-1,8,50)
@@ -46,11 +46,9 @@ reshape = (-1,8,50)
 Max_Hz= 50
 
 
-
-
+#Uncomment to use live stream data
 # # first resolve an EEG stream on the lab network
 # print("looking for an EEG stream...")
-
 # streams = resolve_stream('type', 'EEG')
 # # create a new inlet to read from the stream
 # inlet = StreamInlet(streams[0])
@@ -78,14 +76,16 @@ vertical_line = np.ones((10, WIDTH, 3)) * np.random.uniform(size=(3,))
 
 num=0
 
-while(num<800):
+while(num<600):
 	channel_data = []
 
 	# uncomment for sampling dataset
 	channel_data.append(test[num])
 
+
 	# Sampling all 8 channels
-	# for i in range(3):
+	# Uncomment to use live stream
+	# for i in range(8):
 	# 	sample, timestamp = inlet.pull_sample()
 	# 	channel_data.append(sample[:Max_Hz])
 
