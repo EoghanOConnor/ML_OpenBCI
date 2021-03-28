@@ -3,6 +3,22 @@ Author: Eoghan O'Connor
 Project Title: Machine learning applied to EEG signals.
 
 
+Video of finished project:
+https://user-images.githubusercontent.com/45408401/112758935-b104d280-8fe8-11eb-9536-1ca7491e41f2.mp4
+
+Description of project
+A user is able to use their thoughts to control a box inside a GUI application.
+They do this by thinking left,right and leave the mind blank to keep the box from moving.
+
+How it works
+A neural network is trained using the EEG signals emitted from the user brain when they think left,right and neither direction.
+The trained neural network is then applied to a live stream of incoming data.
+The signals are classified and move the box in the GUI accordingly.
+
+
+
+
+
 
 The following libraries need to be installed:
 python 3
