@@ -2,10 +2,6 @@ Author: Eoghan O'Connor
 
 Project Title: Machine learning applied to EEG signals.
 
-![image](https://user-images.githubusercontent.com/45408401/221375260-f21ca6de-35c7-4122-b327-bcda28af050a.png)
-
-
-
 Video of finished project:
 
 https://user-images.githubusercontent.com/45408401/112758935-b104d280-8fe8-11eb-9536-1ca7491e41f2.mp4
