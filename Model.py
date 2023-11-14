@@ -1,7 +1,6 @@
 ##################################################################
 #
 # Author: Eoghan O'Connor
-# Student I.D: 16110625
 #
 # Project: 		Neural Networks applied to wireless EEG signals
 # File Name: 	Model.py
